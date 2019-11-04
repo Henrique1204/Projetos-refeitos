@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="estilo_440.css">
-    <script src="script/jquery-3.4.1.min.js" defer></script>
-    <script src="script/menu sanduiche.js" defer></script>
-    <script src="script/rolar suavemente.js" defer></script>
+    <link rel="stylesheet" href="estilo_870.css">
+    <script src="scripts/jquery-3.4.1.min.js" defer></script>
+    <script src="scripts/menu sanduiche.js" defer></script>
+    <script src="scripts/rolar suavemente.js" defer></script>
     <title>Sr. Batata na web</title>
 </head>
 <body>
-    <header>
+    <header class="sombra">
         <h1>Sr. Batata na web</h1>
         <div id="menu" class="coluna">
             <div class="barra"></div>
@@ -24,16 +25,22 @@
         <div id="cancela">
             X
         </div>
+        <nav>
+            <a href="#sobre">sobre</a>
+            <a href="#jogar">Jogar</a>
+            <a href="#desenvolvimento">criação</a>
+            <a href="#perguntas">Respostas explicadas</a>
+        </nav>
     </header>
     <nav>
         <a href="#sobre">sobre</a>
+        <a href="#jogar">Jogar</a>
         <a href="#desenvolvimento">criação</a>
         <a href="#perguntas">Respostas explicadas</a>
-        <a href="#jogar">Jogar</a>
     </nav>
     <section id="intro" class="coluna">
         <img src="img/srbatata.gif" alt="Sr. Batata">
-        <P>Será que você consegue agradar o Sr. Batata para conseguir o tão sonhado emprego nas indústrias batatas? Baixe o app e descubra!</P>
+        <P>Será que você consegue agradar o Sr. Batata para conseguir o tão sonhado emprego nas indústrias batatas? Jogue e descubra!</P>
     </section>
     <section id="sobre" class="coluna">
         <h2> Conhecendo o Entrevista com Sr. Batata</h2>
@@ -42,10 +49,17 @@
             <p> Este é um app de quiz, mas ele não é só um app comum, ele é um app que tem como objetivo enaltecer a superiodade da batata no nosso mundo, Como ele faz isso? Te colocando numa situação onde cada resposta sua pode te levar ao mundo do fracasso, uma entrevista de emprego, e assim como toda entrevista de emprego, a recompensa é um emprego, e o que seria melhor do que trabalhar para o próprio Sr. Batata? Se a resposta for nada, parabéns, está no caminho certo!</p>
         </div>
     </section>
+    <section id="jogar" class="coluna">
+            <h2>Jogar</h2>
+            <div class="coluna">
+                <p>Caso tenha interesse no jogo, é possível jogar ele clicando na imagem</p>
+                <a href="https://henrique1204.github.io/Sr.-batata-online/"><img src="img/logoApp.png" alt="logo do aplicativo"></a>
+            </div>
+        </section>
     <section id="desenvolvimento" class="coluna">
         <h2> Pensando no aplicativo...</h2>
         <p>O aplicativo teve seu preocesso de criação durante o 'Aprenda a programar em um final de semama' da Mastertech e foi atualizado com o passar do tempo. A ideia de fazer um aplicativo de um quiz de batata surgiu da ideia de não ter nenhuma ideia, porém em algum momento a palavra batata surgiu na mente do criador e o aplicativo teve seu ínicio.</p>
-        <p>As perguntas foram pensadas para ter a maior graça possível, as respostas e menssagens de erro seguiram esse mesmo padrão. Ao longo das perguntas você percebe que a única coisa que você precisa fazer para acertar é ir na escolha mais sem noção possível, porém não é bem... </p>
+        <p>As perguntas foram pensadas para ter a maior graça possível, as respostas e menssagens de erro seguiram esse mesmo padrão. Ao longo das perguntas você percebe que a única coisa que você precisa fazer para acertar é ir na escolha mais sem noção possível, porém não é bem assim... </p>
         <h2>...Criando</h2>
         <img src="img/criação_design.png" alt="primeira imagem da criação">
         <p>Depois de pensar em tudo, o próximo passo foi montat, para isso foi usado a ferramenta de ensino 'Mit app inventor'. O layout dele foi feito mesclando preto com branco, invertendo as cores ao entrar na segunda fase do jogo e detalhes vermelhos e verde para indicar se errrou, ou acertou. Programação foi algo simples, só precisou colocar os botões para direcionar o jogador para telas dferentes, se acertar tela seguinte, se errar volta para o ínicio </p>
@@ -76,15 +90,7 @@
             <dd>Pergunte para um engenheiro e descubra</dd>
         </dl> 
     </section>
-    <section id="jogar" class="coluna">
-        <h2>Jogar</h2>
-        <div class="coluna">
-            <p>Caso tenha interesse no jogo, é possível jogar ele clicando na imagem</p>
-            <a href="https://henrique1204.github.io/Sr.-batata-online/"><img src="img/logoApp.png" alt="logo do aplicativo"></a>
-        </div>
-    </div>
-</section>
-<button id="subir">Subir</button>
-<footer>
-    <p> &copy; Paulo Henrique | &copy; Sr. Batata</p>
-</footer>
+    <button id="subir">Subir</button>
+    <footer>
+        <p> &copy; Paulo Henrique | &copy; Sr. Batata</p>
+    </footer>

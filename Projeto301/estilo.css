@@ -19,14 +19,18 @@ header{
     background-color: rgb(24, 23, 23);
 }
 
+.sombra{
+    box-shadow: white 1px 1px 10px;
+}
+
 h1{
     padding: 0 10px;
     font-size: 16pt;
-    border: white solid 2px
+    border: white solid 2px;
 }
 
 h1,h2{
-    margin: 0;
+    margin: 10px 0; 
     text-align: center;
     color: #DAA520;
     font-family: 'Shrikhand';
@@ -55,6 +59,10 @@ h1,h2{
     justify-content: center;
     align-items: center;
     color: #DAA520;
+}
+
+header>nav{
+    display: none;
 }
 
 nav{
@@ -101,6 +109,7 @@ section{
 }
 
 #intro p{
+    text-align: center;
     color: #8F643A;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.300);
 }

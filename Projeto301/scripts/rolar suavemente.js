@@ -26,8 +26,12 @@ links.click(function(){
 subir.on('click', function(){
     $('HTML, body').animate({scrollTop: 0}, 1000);
     links.removeClass('ativo');
+    if(window.screen.width < 870){
+        menuLinks.css('top', '20px');
+        cancelaMenu.css('display', 'none');
+        menuSanduiche.css('display', 'flex');
+    };
 });
-
 
 /* Jeito de descobrir a posição do elemento
 const sobre = $('#sobre');

@@ -1,0 +1,28 @@
+@media(min-width: 870px){
+    #menu{
+        display: none;
+    }
+    header>nav{
+        display: flex;
+        min-width: 50%;
+        position: relative;
+        top: auto;
+    }
+    body>nav{
+        display: flex;
+    }
+    #sobre div, #jogar div{
+        flex-direction: row;
+    }
+    #sobre p, #jogar p{
+        width: 50%;
+    }
+    #sobre img{
+        width: 306px;
+        height: 440px;
+
+    }
+    p{
+        font-size: 20pt
+    }
+}
