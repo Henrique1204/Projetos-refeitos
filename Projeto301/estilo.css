@@ -19,13 +19,14 @@ header{
 }
 
 h1{
+    padding: 0 10px;
     font-size: 16pt;
     border: white solid 2px
 }
 
 h1,h2{
     margin: 0;
-    padding: 0 10px;
+    text-align: center;
     color: #DAA520;
     font-family: 'Shrikhand';
 }
@@ -34,13 +35,24 @@ nav{
     display: none;
 }
 
-#menu{
-    width: 35px;
-    height: 35px;
+a{
+    color:#DAA520;
+    text-decoration: none;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.coluna{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#menu{
+    width: 35px;
+    height: 35px;
 }
 
 .barra{
@@ -49,18 +61,27 @@ nav{
     background-color:#DAA520;
 }
 
+section{
+    width: 100vw;
+    border-bottom: white solid 1px;
+}
+
 #intro{
     width: 100vw;
-    height: calc(100vh + 70px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: calc(100vh + 70px)!important;
+    justify-content: center!important;
     background-color: white;
 }
 
-#intro p{
+p{
     padding: 0 10px;
+}
+
+#intro p{
     color: #8F643A;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.300);
+}
+
+#sobre img{
+    border: white solid 2px;
 }
