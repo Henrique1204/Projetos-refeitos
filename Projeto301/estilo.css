@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
     color: white;
     background-color: black;
-    font:normal 10pt cursive,sans-serif;
+    font:normal 12pt cursive,sans-serif;
 }
 
 header{
@@ -19,6 +19,7 @@ header{
 }
 
 h1{
+    font-size: 16pt;
     border: white solid 2px
 }
 
@@ -46,4 +47,20 @@ nav{
     width: 90%;
     height: 15%;
     background-color:#DAA520;
+}
+
+#intro{
+    width: 100vw;
+    height: calc(100vh + 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#intro p{
+    padding: 0 10px;
+    color: #8F643A;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.300);
 }
