@@ -1,0 +1,16 @@
+@media(min-width: 440px){
+    h1{
+        font-size: 22pt;
+    }
+    #sobre div, #jogar div{
+        margin-top: 10px;
+        flex-direction: row;
+    }
+    p{
+        margin: 15px;
+    }
+    #desenvolvimento img{
+        width: 400px;
+        height: 300px;
+    }
+}
