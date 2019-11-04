@@ -14,6 +14,7 @@ header{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    z-index: 1;
     top: 0;
     background-color: rgb(24, 23, 23);
 }
@@ -29,18 +30,6 @@ h1,h2{
     text-align: center;
     color: #DAA520;
     font-family: 'Shrikhand';
-}
-
-nav{
-    display: none;
-}
-
-a{
-    color:#DAA520;
-    text-decoration: none;
-    outline: thin dotted;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
 }
 
 .coluna{
@@ -59,6 +48,44 @@ a{
     width: 90%;
     height: 15%;
     background-color:#DAA520;
+}
+
+#cancela{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #DAA520;
+}
+
+nav{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    background-color: rgb(24, 23, 23);
+}
+
+a{
+    font-size: 10pt;
+    padding: 0 3px;
+    color:#DAA520;
+    text-decoration: none;
+}
+
+a:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.ativo{
+    color: rgb(24, 23, 23);
+    background-color: #DAA520;
+    text-decoration: underline rgb(24, 23, 23);
 }
 
 section{
@@ -100,6 +127,6 @@ footer{
     background-color: rgb(24, 23, 23);
 }
 
-footer p {
+footer p{
     margin: 0;
 }
