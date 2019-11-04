@@ -91,3 +91,15 @@ section{
 lt{
     color: #DAA520;    
 }
+
+footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+}
+
+footer p {
+    margin: 0;
+}
